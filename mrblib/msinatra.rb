@@ -1,7 +1,3 @@
-require 'mruby-io'
-require 'mruby-socket'
-require 'mruby-http'
-
 module Sinatic
   @content_type = nil
   @options = {:host => '127.0.0.1', :port => 8888}
